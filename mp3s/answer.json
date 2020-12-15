@@ -1,0 +1,32 @@
+[
+  {
+    "path": "../testfiles/mp3s/Rolemusic - The Pirate And The Dancer/05 Rolemusic - She Is My Best Treasure.mp3",
+    "basename": "05 Rolemusic - She Is My Best Treasure.mp3",
+    "size": 8260682,
+    "ext": "mp3",
+    "mime": "audio/mpeg",
+    "audio": {
+      "duration": 205.97551020408164,
+      "song": {
+        "artist": "Rolemusic",
+        "album": "The Pirate And The Dancer",
+        "title": "She Is My Best Treasure"
+      }
+    }
+  },
+  {
+    "path": "../testfiles/mp3s/Rolemusic - The Pirate And The Dancer/07 Rolemusic - Beach Wedding Dance.mp3",
+    "basename": "07 Rolemusic - Beach Wedding Dance.mp3",
+    "size": 10606478,
+    "ext": "mp3",
+    "mime": "audio/mpeg",
+    "audio": {
+      "duration": 264.6204081632653,
+      "song": {
+        "artist": "Rolemusic",
+        "album": "The Pirate And The Dancer",
+        "title": "Beach Wedding Dance"
+      }
+    }
+  }
+]
