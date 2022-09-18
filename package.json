@@ -17,10 +17,8 @@
     "url": "https://github.com/joshmarinacci/querylang-testdata/issues"
   },
   "homepage": "https://github.com/joshmarinacci/querylang-testdata#readme",
-  "devDependencies": {
-  },
   "dependencies": {
-    "josh_node_util": "0.0.3",
-    "josh_js_util": "0.0.9"
+    "josh_js_util": "0.0.9",
+    "josh_node_util": "0.0.4"
   }
 }
