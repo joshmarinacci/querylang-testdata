@@ -8,7 +8,11 @@ const log = make_logger("BUILD")
 const EXT_TO_MIMETYPE = {
     '.jpg':'image/jpeg',
     '.png':'image/png',
-    '.mp3':'audio/mpeg'
+    '.mp3':'audio/mpeg',
+    '.md':'text/markdown',
+    '.rs':'text/plain',
+    '.js':'text/plain',
+    '.c':'text/plain',
 }
 
 async function get_mp3s() {
@@ -63,12 +67,32 @@ async function get_people() {
     return people
 }
 
+async function get_texts() {
+    let files = await getFiles("text",async (file) => {
+        let parsed = path.parse(file)
+        let ext = parsed.ext.toLowerCase()
+        // if(ext !== '.jpg') return log.info("skipping",file)
+        log.info("processing",file,ext)
+        let content = await fs.readFile(file)
+        return {
+            id:"image_"+await generate_file_hash(file),
+            data: {
+                "type": "image",
+                "mimetype":EXT_TO_MIMETYPE[ext],
+                "filepath": file,
+                filesize: (await fs.stat(file)).size,
+            },
+        }
+    })
+    return files
+}
 
 async function runit() {
     let mp3s = await get_mp3s()
     let images = await get_images()
     let people = await get_people();
-    let items = [].concat(mp3s,images,people)
+    let texts = await get_texts();
+    let items = [].concat(mp3s,images,people, texts)
     let data = {
         data:items,
     }
