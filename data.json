@@ -417,45 +417,45 @@
          "id": "person_1"
       },
       {
-         "id": "image_3e62562a0bf825e87fd37f3c5c38cba60a130716266fe6bb9e60bc3f7e586303",
+         "id": "text_3e62562a0bf825e87fd37f3c5c38cba60a130716266fe6bb9e60bc3f7e586303",
          "data": {
-            "type": "image",
+            "type": "text-document",
             "mimetype": "text/markdown",
             "filepath": "text/bretvictor.md",
             "filesize": 36842
          }
       },
       {
-         "id": "image_18d778490d836d69bc83babd10da6e7606400984ea007801ed8b357e2b30734c",
+         "id": "text_18d778490d836d69bc83babd10da6e7606400984ea007801ed8b357e2b30734c",
          "data": {
-            "type": "image",
+            "type": "text-document",
             "mimetype": "text/plain",
             "filepath": "text/mandelbrot.rs",
             "filesize": 1016
          }
       },
       {
-         "id": "image_f784850295a0fffa40b683361b70fc2aa02fb68341a642cac6bcf5115241c300",
+         "id": "text_f784850295a0fffa40b683361b70fc2aa02fb68341a642cac6bcf5115241c300",
          "data": {
-            "type": "image",
+            "type": "text-document",
             "mimetype": "text/markdown",
             "filepath": "text/ohm.md",
             "filesize": 2717
          }
       },
       {
-         "id": "image_8cc71f28ec1f7bba5326f2bdbdead94224596c98683013ac1867245ff0b254c4",
+         "id": "text_8cc71f28ec1f7bba5326f2bdbdead94224596c98683013ac1867245ff0b254c4",
          "data": {
-            "type": "image",
+            "type": "text-document",
             "mimetype": "text/plain",
             "filepath": "text/rpneval.js",
             "filesize": 784
          }
       },
       {
-         "id": "image_ecba3a2f12a5bdfb1d35d119d5cd54aafe6e55d574becf8ef631212a2b1129aa",
+         "id": "text_ecba3a2f12a5bdfb1d35d119d5cd54aafe6e55d574becf8ef631212a2b1129aa",
          "data": {
-            "type": "image",
+            "type": "text-document",
             "mimetype": "text/plain",
             "filepath": "text/voronoi.c",
             "filesize": 2575

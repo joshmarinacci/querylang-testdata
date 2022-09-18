@@ -75,9 +75,9 @@ async function get_texts() {
         log.info("processing",file,ext)
         let content = await fs.readFile(file)
         return {
-            id:"image_"+await generate_file_hash(file),
+            id:"text_"+await generate_file_hash(file),
             data: {
-                "type": "image",
+                "type": "text-document",
                 "mimetype":EXT_TO_MIMETYPE[ext],
                 "filepath": file,
                 filesize: (await fs.stat(file)).size,
