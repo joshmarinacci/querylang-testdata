@@ -1,0 +1,26 @@
+{
+  "name": "querylang-testdata",
+  "version": "1.0.0",
+  "description": "test data for the querylang / queryos / idealos projecct",
+  "main": "build.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshmarinacci/querylang-testdata.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshmarinacci/querylang-testdata/issues"
+  },
+  "homepage": "https://github.com/joshmarinacci/querylang-testdata#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "josh_node_util": "0.0.3",
+    "josh_js_util": "0.0.9"
+  }
+}
