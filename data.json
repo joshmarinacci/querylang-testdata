@@ -421,6 +421,7 @@
          "data": {
             "type": "text-document",
             "mimetype": "text/markdown",
+            "title": "bretvictor",
             "filepath": "text/bretvictor.md",
             "filesize": 36842
          }
@@ -430,6 +431,7 @@
          "data": {
             "type": "text-document",
             "mimetype": "text/plain",
+            "title": "mandelbrot",
             "filepath": "text/mandelbrot.rs",
             "filesize": 1016
          }
@@ -439,6 +441,7 @@
          "data": {
             "type": "text-document",
             "mimetype": "text/markdown",
+            "title": "ohm",
             "filepath": "text/ohm.md",
             "filesize": 2717
          }
@@ -448,6 +451,7 @@
          "data": {
             "type": "text-document",
             "mimetype": "text/plain",
+            "title": "rpneval",
             "filepath": "text/rpneval.js",
             "filesize": 784
          }
@@ -457,6 +461,7 @@
          "data": {
             "type": "text-document",
             "mimetype": "text/plain",
+            "title": "voronoi",
             "filepath": "text/voronoi.c",
             "filesize": 2575
          }

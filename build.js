@@ -79,6 +79,7 @@ async function get_texts() {
             data: {
                 "type": "text-document",
                 "mimetype":EXT_TO_MIMETYPE[ext],
+                "title":parsed.name,
                 "filepath": file,
                 filesize: (await fs.stat(file)).size,
             },
